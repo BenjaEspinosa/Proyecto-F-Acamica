@@ -26,17 +26,21 @@ h4 {
     padding: 8px 94px;
     text-decoration: none;
     color: black;
-    font-family: Arial, sans-serif;
-     
+    font-family: Arial, sans-serif;   
 }
 iframe {
     width: 100%;
     height: 232px;
     margin-bottom: 4px;
 }
+.primera-parte {
+    height: 255px;
+}
 .segunda-parte {
-    background-color: blue;
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
     clip-path: polygon(0 3%, 100% 0%, 100% 96%, 0% 100%);
+    height: 1250px;
+    padding-top: 2.5rem;
     }
 .title2 {
     color: white;
@@ -46,7 +50,12 @@ iframe {
 .phoneimg {
     box-sizing: border-box;
     width: 100%;
-    }
+}
+.img.phone {
+    z-index: 1;
+    position: relative;
+    margin-top: -95px;
+}
 .container3 p {
     display: flex;
     flex-direction: row;
@@ -68,6 +77,7 @@ h3 {
 .img {
     max-width: 100%;
     margin-bottom: -5px;
+    
 }
 h2 {
     display: flex;
