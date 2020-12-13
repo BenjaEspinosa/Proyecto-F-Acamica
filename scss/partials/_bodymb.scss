@@ -3,7 +3,7 @@
 }
 body {
     margin: 0;
-}
+    }
 h1 {
     margin-bottom: 24px;
     font-family: 'IBM Plex Sans';
@@ -13,10 +13,17 @@ h1 {
     flex-wrap: wrap;
     width: 80%;
     font-size: 36px;
+    margin-left: 15px; 
+    margin-right: 15px;
+}
+.subtitle {
+    margin-right: 15px;
 }
 h4 {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 14px;
+    margin-right: 15px;
+    padding-left: 15px;
 }
 .button a {
     width: 100%;
@@ -31,11 +38,15 @@ h4 {
     justify-content: center;
     font-weight: 500;   
     padding: 9px;
+    max-width: 288px;
+    height: 48px;
+    margin-left: 16px;
+
 }
 iframe {
-    width: 100%;
     height: 232px;
     margin-bottom: 4px;
+    margin-left: 15px;
 }
 .primera-parte {
     height: 255px;
@@ -45,6 +56,7 @@ iframe {
     clip-path: polygon(0 3%, 100% 0%, 100% 96%, 0% 100%);
     height: 1250px;
     padding-top: 2.5rem;
+    margin-top: 18px;
     }
 .title2 {
     color: white;
@@ -89,18 +101,23 @@ h2 {
     font-family: 'IBM Plex Sans';
     font-size: 36px;
     width: 88%;
+    margin-left: 15px;
 }
 p { 
     font-family: 'IBM Plex Mono';
     font-size: 14px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 .titulo-inferior {
     text-align: center;
-    width: 120%;
     clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
     background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
     padding-top: 44px;
     color: white;
     height: 341px;
+}
+.titulo-ultimas {
+    padding-left: 66px;
 
 }

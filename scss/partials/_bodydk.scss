@@ -1,0 +1,36 @@
+@media (min-width: 1023px) {
+h1 {
+    margin-left: 65px;
+    }
+h4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 620px;
+    margin-left: 65px;
+    margin-top: -15px;
+}
+.button {
+    max-width: 226px;
+    margin-left: 60px;
+}
+.segunda-parte {
+    clip-path: polygon(0 4%, 100% 0, 100% 100%, 0% 100%);
+    margin-top: -95px;
+    height: 890px;
+}
+.contenedor2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 850pxpx;
+}
+.spotify {
+    max-width: 100%;
+    width: 584px;
+    margin: 16px;
+}   
+.dot { 
+    color: blue;
+}
+}

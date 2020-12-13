@@ -32,7 +32,7 @@ header nav {
   }
     li {
         &:hover {
-            background: white;
+            background:blue;
         }
     }
     a {
@@ -40,7 +40,7 @@ header nav {
         line-height: 28px;
         display: block;
         &:hover {
-            color: white;
+            color: #02f5ff;
         }
     }
 }
